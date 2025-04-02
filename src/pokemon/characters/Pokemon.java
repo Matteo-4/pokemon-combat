@@ -1,6 +1,7 @@
-package pokemon;
+package pokemon.characters;
 
-import pokemon.type.EnumType;
+import pokemon.PokemonBattle;
+import pokemon.types.EnumType;
 
 public abstract class Pokemon {
 

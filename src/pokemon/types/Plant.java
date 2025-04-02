@@ -1,9 +1,9 @@
-package pokemon.type;
+package pokemon.types;
 
-import pokemon.Pokemon;
+import pokemon.characters.Pokemon;
 import pokemon.PokemonBattle;
 
-import static pokemon.type.EnumType.PLANT;
+import static pokemon.types.EnumType.PLANT;
 
 public class Plant extends Pokemon {
 

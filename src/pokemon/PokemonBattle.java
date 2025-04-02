@@ -1,5 +1,9 @@
 package pokemon;
 
+import pokemon.characters.Pokemon;
+import pokemon.characters.Trainer;
+import pokemon.items.Item;
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.List;
@@ -231,7 +235,12 @@ public class PokemonBattle extends JFrame {
                         alivePokemons.add(chosenPokemon);
                         displayMessage("%s is revived and ready to fight!", chosenPokemon.getName());
                     }
+                } else if (chosenItem.getName().equals("Potion")) {
+                    int healAmount = chosenPokemon.getMaxHealthPoints() / 4;  // Adjust potion healing amount as needed
+                    chosenPokemon.setHealthPoints(Math.min(chosenPokemon.getHealthPoints() + healAmount, chosenPokemon.getMaxHealthPoints()));
+                    displayMessage("%s has been healed by %d HP! New HP: %d", chosenPokemon.getName(), healAmount, chosenPokemon.getHealthPoints());
                 }
+
                 switchTurn();
                 opponentTurn();
             }

@@ -1,8 +1,12 @@
 import pokemon.*;
-import pokemon.type.Electric;
-import pokemon.type.Fire;
-import pokemon.type.Plant;
-import pokemon.type.Water;
+import pokemon.characters.Pokemon;
+import pokemon.characters.Trainer;
+import pokemon.items.Potion;
+import pokemon.items.Repel;
+import pokemon.types.Electric;
+import pokemon.types.Fire;
+import pokemon.types.Plant;
+import pokemon.types.Water;
 
 import javax.swing.*;
 

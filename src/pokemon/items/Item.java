@@ -1,4 +1,7 @@
-package pokemon;
+package pokemon.items;
+
+import pokemon.characters.Pokemon;
+import pokemon.characters.Trainer;
 
 public abstract class Item {
     protected String name;

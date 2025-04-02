@@ -1,4 +1,8 @@
-package pokemon;
+package pokemon.characters;
+
+import pokemon.items.Item;
+import pokemon.items.Potion;
+import pokemon.items.Repel;
 
 import java.util.ArrayList;
 import java.util.List;

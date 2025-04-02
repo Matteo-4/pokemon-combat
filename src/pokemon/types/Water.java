@@ -1,9 +1,9 @@
-package pokemon.type;
+package pokemon.types;
 
-import pokemon.Pokemon;
+import pokemon.characters.Pokemon;
 import pokemon.PokemonBattle;
 
-import static pokemon.type.EnumType.WATER;
+import static pokemon.types.EnumType.WATER;
 
 public class Water extends Pokemon {
     public Water(String name, int healthPoints, int attackPoints, int defense) {
