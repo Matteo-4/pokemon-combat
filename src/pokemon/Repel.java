@@ -1,7 +1,5 @@
 package pokemon;
 
-import java.util.stream.Collectors;
-
 public class Repel extends Item {
 
     public Repel(int quantity) {
