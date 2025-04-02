@@ -1,9 +1,9 @@
-package pokemon.type;
+package pokemon.types;
 
-import pokemon.Pokemon;
+import pokemon.characters.Pokemon;
 import pokemon.PokemonBattle;
 
-import static pokemon.type.EnumType.ELECTRIC;
+import static pokemon.types.EnumType.ELECTRIC;
 
 public class Electric extends Pokemon {
     public Electric(String name, int healthPoints, int attackPoints, int defense) {

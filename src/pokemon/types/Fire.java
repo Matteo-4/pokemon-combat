@@ -1,9 +1,9 @@
-package pokemon.type;
+package pokemon.types;
 
-import pokemon.Pokemon;
+import pokemon.characters.Pokemon;
 import pokemon.PokemonBattle;
 
-import static pokemon.type.EnumType.FIRE;
+import static pokemon.types.EnumType.FIRE;
 
 public class Fire extends Pokemon {
     public Fire(String name, int healthPoints, int attackPoints, int defense) {

@@ -1,4 +1,4 @@
-package pokemon.type;
+package pokemon.types;
 
 public enum EnumType {
     FIRE("Fire"),
